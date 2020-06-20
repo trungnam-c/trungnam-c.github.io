@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylehome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v3"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/dk2.js"></script>
+    <title>Apple</title>
+</head>
+
+<body onload="getLocation()">
+    <header>
+        <nav>
+            <ul class="fonttd">
+                <li><img src="img/logoxam.png"></li>
+                <li>
+                    <a href="#">Mac</a>
+                </li>
+                <li>
+                    <a href="#">iPad</a>
+                </li>
+                <li>
+                    <a href="#">iPhone</a>
+                </li>
+                <li>
+                    <a href="#">Watch</a>
+                </li>
+                <li>
+                    <a href="#">TV</a>
+                </li>
+                <li>
+                    <a href="#">Music</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Where to Buy</a>
+                </li>
+                <li id="iptim">
+                    <input type="text">
+                </li>
+                <li>
+                    <i class="fa fa-search" id="tim"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nav2">
+        <ul>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphonepro.png">
+                    </div>
+                    <p class="fonttd">iPhone 11 Pro</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphone11.png">
+                    </div>
+                    <p class="fonttd">iPhone 11</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphonese.png">
+                    </div>
+                    <p class="fonttd">iPhone Se</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphone11.png">
+                    </div>
+                    <p class="fonttd">iPhone Xr</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphonecom.png" style="left: 25px;">
+                    </div>
+                    <p class="fonttd">Compare</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphoneair.png">
+                    </div>
+                    <p class="fonttd">AirPods</p>
+                </div>
+            </li>
+            <li>
+                <div class="boxnav">
+                    <div class="boxnav1">
+                        <img src="img/iphoneios.png">
+                    </div>
+                    <p class="fonttd">iOS 13</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="banner" id="bn">
+        <img src="img/banner.PNG">
+        <!-- <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="bn_big">
+            <div class="bn_left">
+                <img src="img/ip_11_banner.png">
+                <div class="giaban">
+                    <p class="fonttd chuden">Giá bán: <span class="chuvang">21.690.000đ</span>
+                        <br><span class="chuxam size17 fonttd">Xám, vàng, xanh, đen, trắng, đỏ</span>
+                    </p>
+                </div>
+            </div>
+            <div class="bn_right">
+                <div class="top">
+                    <img src="img/hotsale.png">
+                    <h6 class="hotsale fonthot chutrang">HotSale</h6>
+                    <p class="fonttd">&nbsp;iPhone 11</p>
+                    <h3 class="bf fonttd">Đẳng Cấp Chuyên Gia Selfie</h3>
+                </div>
+                <div class="top2">
+                    <div class="top2_o">
+                        <p class="fonttd chutrang">Ưu đãi đến <span class="chuvang">2.399.000đ</span></p>
+                    </div>
+                    <div class="top2_big">
+                        <div class="top2_big1">
+                            <img src="img/bannerkm1.png" alt="">
+                        </div>
+                        <div class="top2_big2">+</div>
+                        <div class="top2_big1">
+                            <img src="img/bannerkm2.png" alt="">
+                        </div>
+                        <div class="top2_big2">+</div>
+                        <div class="top2_big1">
+                            <img src="img/bannerkm3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bn_cuoi">
+            <h2 class="chuxam"><span class="textleft ">Tổng đài: <span class="colorxanh">1900.9999</span></span><span class="right chuxam size17">*Thời gian áp dụng: 28/05 - 30/5</span></h2>
+        </div> -->
+    </div>
+    <div class="row1 row1_1">
+        <div class="left row1_1_1">
+            <img src="img/row1_1_1.png" alt="">
+        </div>
+        <div class="right row1_1_2">
+            <p class="fonttd">iPhone 11</p>
+            <h2 class="fontnd">Just the <br>right amount <br>of everything.</h2>
+            <button class="mua">Mua</button>
+            <a href="index2.html" class="chunghien tht"><br>Tìm hiểu thêm ></a>
+        </div>
+    </div>
+    <div class="row1 row1_1">
+        <div class="left row1_1_2">
+            <p class="fonttd">iPhone 11 Pro</p>
+            <h2 class="fontnd">Pro cameras.<br> Pro display.<br> Pro performance.</h2>
+            <button class="mua">Mua</button>
+            <a href="#" class="chunghien tht"><br>Tìm hiểu thêm ></a>
+        </div>
+        <div class="right row1_1_1">
+            <img src="img/row1_2.png">
+        </div>
+    </div>
+    <div class="row2">
+        <div class="tdchinh">
+            <h2 class="fonttd">Which iPhone is right for you ? </h2>
+            <p class="chuxanh fontnd">Compare all iPhone models</p>
+        </div>
+        <div class="sp">
+            <div class="sp1">
+                <div class="sp1img">
+                    <img src="img/sp1.png" alt="">
+                </div>
+                <div class="ndsp">
+                    <h2 class="fonttd">iPhone 11 Pro</h2>
+                    <P class="fontnd">Hệ thống camera ba (Ultra Wide, Wide, Telephoto)</P>
+                    <P class="fontnd">Lên đến 20 giờ phát video</P>
+                    <P class="fontnd">Chống nước ở độ sâu 4 mét trong tối đa 30 phút</P>
+                    <P class="fontnd">5,8” hoặc 6,5” Super Retina XDR hiển thị</P>
+                    <button class="mua">Mua</button><br>
+                    <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+            <div class="sp1">
+                <div class="sp1img">
+                    <img src="img/sp2.png" alt="">
+                </div>
+                <div class="ndsp">
+                    <h2 class="fonttd">iPhone 11</h2>
+                    <P class="fontnd">Hệ thống camera kép (Siêu rộng, Rộng)</P>
+                    <P class="fontnd">Lên đến 17 giờ phát video</P>
+                    <P class="fontnd">Chống nước ở độ sâu 2 mét trong tối đa 30 phút</P>
+                    <P class="fontnd">Màn hình 6.1 Liquid Liquid Retina HD</P>
+                    <button class="mua">Mua</button><br>
+                    <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+            <div class="sp1">
+                <div class="sp1img">
+                    <img src="img/sp3.png" alt="">
+                </div>
+                <div class="ndsp">
+                    <h2 class="fonttd"><img src="img/logoipse.png"></h2>
+                    <P class="fontnd">Hệ thống camera đơn (Rộng)</P>
+                    <P class="fontnd">Lên đến 16 giờ phát video</P>
+                    <P class="fontnd">Chống nước ở độ sâu 1 mét trong tối đa 30 phút</P>
+                    <P class="fontnd">Màn hình 6.1 Liquid Liquid Retina HD</P>
+                    <button class="mua">Mua</button><br>
+                    <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+            <div class="sp1">
+                <div class="sp1img">
+                    <img src="img/sp4.png" alt="">
+                </div>
+                <div class="ndsp">
+                    <h2 class="fonttd"><img src="img/logoxr.png" alt=""></h2>
+                    <P class="fontnd">Hệ thống camera ba (Ultra Wide, Wide, Telephoto)</P>
+                    <P class="fontnd">Lên đến 13 giờ phát video</P>
+                    <P class="fontnd">Chống nước ở độ sâu 1 mét trong tối đa 30 phút</P>
+                    <P class="fontnd">Màn hình 4,7 inch Retina HD</P>
+                    <button class="mua">Mua</button><br>
+                    <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rowairpod">
+        <div class="tdchinh">
+            <h2 class="fonttd">Featured Accessorites</h2>
+        </div>
+        <div class="airpod">
+            <div class="ap1 left">
+                <h1 class="fonttd">AirPods</h1>
+                <p class="fontnd">Magic runs is the family</p>
+                <a href="#" class="chunghien tht"><br>Tìm hiểu thêm ></a>
+            </div>
+            <div class="ap2 right">
+                <img src="img/airpod.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="watch">
+        <div class="watbig">
+            <div class="wat1 left">
+                <h2><img src="img/logowatch.png"></h2>
+                <h1 class="fonttd">You’ve never seen a watch like this.</h1>
+                <p><button class="mua">Mua</button></p>
+                <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+            </div>
+            <div class="wat2 right">
+                <img src="img/watch.png" class="right">
+            </div>
+        </div>
+    </div>
+    <div class="row3">
+        <div class="tdchinh">
+            <h2 class="fonttd">Featured Accessorites</h2>
+        </div>
+        <div class="row3dai martop150">
+            <img src="img/row3bn1.png">
+            <div class="textrow3 textcenter chutrang">
+                <p class="fontnd">iOS 13</p>
+                <h1 class="fonttd">A whole new look. On a whole new level.</h1>
+                <a href="#" class="chunghien tht chutrang">Tìm hiểu thêm></a>
+            </div>
+        </div>
+        <div class="row3dai2">
+            <div class="row3dai2_1 left bgden">
+                <div class="textrow3_1 textcenter chutrang">
+                    <h1 class="fonttd">Only iPhone</h1>
+                    <p class="fontnd">No other phone is like iPhone.</p>
+                    <a href="#" class="chunghien tht ">Tìm hiểu thêm ></a>
+                </div>
+                <div class="row3dai2img">
+                    <img src="img/row3sp1.png" class="right">
+                </div>
+            </div>
+            <div class="row3dai2_1 right bgden">
+                <div class="textrow3_1 textcenter chutrang">
+                    <h1 class="fonttd">Why Switch</h1>
+                    <p class="fontnd">Life is easier on iPhone.</p>
+                    <a href="#" class="chunghien tht">Tìm hiểu thêm ></a>
+                </div>
+                <div class="row3dai2img">
+                    <img src="img/row3sp2.png">
+                </div>
+            </div>
+        </div>
+        <div class="row3dai bgden">
+            <img src="img/row3bn2.png" class="disblock">
+            <div class="row3dai2_1 left bgden top165">
+                <div class="textrow3_1 textcenter chutrang">
+                    <h1 class="fonttd">Privacy</h1>
+                    <a href="#" class="chunghien tht">Learn more about Apple and privacy ></a>
+                </div>
+            </div>
+        </div>
+        <div class="row3dai2">
+            <div class="row3dai2_1 left bgden">
+                <div class="row3img2">
+                    <img src="img/row3sp3.png" alt="">
+                </div>
+                <div class="row3text2">
+                    <h1 class="fonttd chutrang">That’s iPhone.</h1>
+                    <a href="#" class="chunghien tht">See all kinds of things iPhone can do ></a>
+                </div>
+            </div>
+            <div class="row3dai2_1 right pore">
+                <img src="img/row3bn3.png" class="poab idx1">
+                <div class="textrow3_1 textcenter chutrang">
+                    <h1 class="fonttd">How to shoot on iPhone</h1>
+                    <p class="fontnd">We believe that everyone can take great<br> photos. Explore some tips and techniques to help<br> you take even better ones.</p>
+                    <a href="#" class="tht ">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+        </div>
+        <div class="tdchinh disblock">
+            <h2 class="fonttd">Get more out of your iPhone.</h2>
+        </div>
+        <div class="row3dai martop150 disblock">
+            <img src="img/row3bn4.png">
+            <div class="row3dai2_1 left bgden top165">
+                <div class="textrow3_1 textcenter chutrang">
+                    <h2 class="fonttd">Get one year of Apple TV+ free <br>when you buy an iPhone.</h2>
+                    <button class="watchbtn">Watch Now</button>
+                    <a href="#" class="tht chutrang">Tìm hiểu thêm ></a>
+                </div>
+            </div>
+        </div>
+        <div class="row3dai disblock">
+            <img src="img/row3bn5.png">
+            <div class="row3dai2_1 left top165">
+                <div class="textrow3_1 textcenter">
+                    <h1 class="fonttd">All the easy ways<br> to pay for games, music,<br> movies, and more.</h1>
+                    <a href="#" class="tht"><br>Tìm hiểu thêm ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+    <footer>
+        <div class="ft1 disblock">
+            <div class="ft1_1">
+                <ul>
+                    <li>
+                        <p class="chudam fonttd">Shop and Learn</p>
+                    </li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li> <a href="#">Watch</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li> <a href="#">iPod</a></li>
+                    <li> <a href="#">touch</a></li>
+                </ul>
+            </div>
+            <div class="ft1_1">
+                <ul>
+                    <li>
+                        <p class="chudam fonttd">Services</p>
+                    </li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Apple TV+</a></li>
+                    <li><a href="#">Apple Arcade</a></li>
+                    <li> <a href="#">iCloud</a></li>
+
+                    <li>
+                        <p class="chudam fonttd">Account</p>
+                    </li>
+                    <li><a href="#">Apple Music</a></li>
+                    <li><a href="#">Manage Your Apple ID</a></li>
+                    <li><a href="#">iCloud.com</a></li>
+                </ul>
+            </div>
+            <div class="ft1_1">
+                <ul>
+                    <li>
+                        <p class="chudam fonttd">For Business</p>
+                    </li>
+                    <li><a href="#">Apple and Business</a></li>
+                    <li>
+                        <p class="chudam fonttd">For Education</p>
+                    </li>
+                    <li><a href="#">Apple and Education</a></li>
+                    <li>
+                        <p class="chudam fonttd">For Healthcare</p>
+                    </li>
+                    <li><a href="#">Apple in Healthcare</a></li>
+
+                </ul>
+            </div>
+            <div class="ft1_1">
+                <ul>
+                    <li>
+                        <p class="chudam fonttd">Apple Values</p>
+                    </li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Environment</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li> <a href="#">Supplier Responsibility</a></li>
+
+                    <li>
+                        <p class="chudam fonttd">About Apple</p>
+                    </li>
+                    <li>
+                        <a href="#">Investors</a>
+                    </li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact Apple</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ftrepon">
+            <ul>
+                <li>
+                    <p class="chudam fonttd" id="ulchinh">Shop and Learn&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li> <a href="#">Watch</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">AirPods</a></li>
+                        <li> <a href="#">iPod</a></li>
+                        <li> <a href="#">touch</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">Services&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">Apple TV+</a></li>
+                        <li><a href="#">Apple Arcade</a></li>
+                        <li> <a href="#">iCloud</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">Account&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">Manage Your Apple ID</a></li>
+                        <li><a href="#">iCloud.com</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <p class="chudam fonttd">For Business&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Apple and Business</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">For Education&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Apple and Education</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">For Healthcare&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Apple in Healthcare</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">Apple Values&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li> <a href="#">Supplier Responsibility</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <p class="chudam fonttd">About Apple&emsp; <i class='fas fa-angle-down'></i></p>
+                    <ul class="ulcon" id="ulcon">
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact Apple</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="ft2">
+            <p class="fontnd chuxanh">Find a retailer <span class="chuxam">near you</span></p>
+        </div>
+    </footer>
+    <!-- menureponsive -->
+    <div class="menurepon">
+        <i class="fa fa-bars" id="menu"></i>
+        <img src="img/logoxam.png">
+        <ul class="ulcon1">
+            <li>
+                <a href="#">Mac</a>
+            </li>
+            <li>
+                <a href="#">iPad</a>
+            </li>
+            <li>
+                <a href="#">iPhone</a>
+            </li>
+            <li>
+                <a href="#">Watch</a>
+            </li>
+            <li>
+                <a href="#">TV</a>
+            </li>
+            <li>
+                <a href="#">Music</a>
+            </li>
+            <li>
+                <a href="#">Support</a>
+            </li>
+            <li>
+                <a href="#">Where to Buy</a>
+            </li>
+            <li id="iptim">
+                <input type="text">
+            </li>
+            <li>
+                <i class="fa fa-search" id="tim"></i>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        if (navigator.geolocation) {
+            var mapdiv = document.getElementById("map");
+            var nav = navigator.geolocation;
+            var pos = nav.getCurrentPosition(fn_ok);
+
+
+            function fn_ok(postition) {
+                var lat = postition.coords.latitude;
+                var lon = postition.coords.longitude;
+
+                var glatlon = new google.maps.LatLng(lat, lon);
+                var ojbConfig = {
+                    zoom: 17,
+                    center: glatlon
+                };
+                var gmap = new google.maps.Map(mapdiv, ojbConfig);
+
+                var ojbConfigMarker = {
+                    position: glatlon,
+                    map: gmap,
+                    title: "Apple Store"
+                };
+                var gMarker = new google.maps.Marker(ojbConfigMarker);
+            }
+        } else {
+            alert("no");
+        }
+    </script>
+</body>
+
+</html>

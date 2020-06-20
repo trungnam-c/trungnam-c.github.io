@@ -1,0 +1,1132 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                @font-face {
+                    font-family: "fonttd";
+                    src: url("../fonttd.woff2") format('woff2');
+                }
+                
+                @font-face {
+                    font-family: "fontnd";
+                    src: url("../fontnd.woff2") format('woff2');
+                }
+                
+                @font-face {
+                    font-family: "hotsale";
+                    src: url("../Bauhaus\ 93\ Regular.ttf") format('truetype');
+                }
+                
+                .fonthot {
+                    font-family: "hotsale";
+                }
+                
+                .fontnd {
+                    font-family: fontnd;
+                }
+                
+                .fonttd {
+                    font-family: fonttd;
+                }
+                
+                header {
+                    width: 100%;
+                    height: 50px;
+                    background-color: black;
+                }
+                
+                .banner {
+                    width: 100%;
+                    height: 700px;
+                    background-image: url(../img/nenchamtim.png);
+                    background-size: cover;
+                    float: left;
+                    transition: all 1s ease-in-out;
+                }
+                
+                .row1 {
+                    width: 100%;
+                    height: 500px;
+                    margin-top: 30px;
+                    float: left;
+                }
+                
+                .row2 {
+                    padding: 0 200px;
+                    width: calc(100% - 400px);
+                    height: 850px;
+                    margin-top: 80px;
+                    float: left;
+                }
+                
+                .row3 {
+                    width: 100%;
+                    height: 3300px;
+                    float: left;
+                    background-color: #f2f2f2;
+                }
+                
+                footer {
+                    width: 100%;
+                    min-height: 370px;
+                    background-color: #f5f5f7;
+                    float: left;
+                }
+                
+                header nav ul li {
+                    display: inline-block;
+                    margin-left: 70px;
+                }
+                
+                header nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                header nav {
+                    text-align: center;
+                }
+                
+                header nav ul li:first-child {
+                    margin-left: 0;
+                    margin-top: 5px;
+                }
+                
+                .nav2 {
+                    width: 100%;
+                    height: 120px;
+                    background-color: #f3f3f4;
+                    float: left;
+                }
+                
+                .boxnav {
+                    width: 100px;
+                    height: 100px;
+                    float: left;
+                }
+                
+                .nav2 ul li {
+                    display: inline-block;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                }
+                
+                .nav2 ul li:first-child {
+                    margin-left: 0px;
+                }
+                
+                .nav2 ul {
+                    width: 845px;
+                    margin: 0 auto;
+                }
+                
+                .boxnav1 {
+                    width: 100%;
+                    height: 70%;
+                    float: left;
+                    position: relative;
+                }
+                
+                .boxnav p {
+                    text-align: center;
+                }
+                
+                .boxnav1 img {
+                    position: absolute;
+                    bottom: 20px;
+                    left: 35px;
+                }
+                
+                .logo {
+                    width: 100%;
+                    height: 70px;
+                    float: left;
+                    margin-top: 20px;
+                }
+                
+                .logo img {
+                    width: 40px;
+                    margin-left: 11%;
+                }
+                
+                .bn_big {
+                    width: 70%;
+                    height: 520px;
+                    float: left;
+                    margin: 0 15%;
+                }
+                
+                .bn_cuoi {
+                    width: 54%;
+                    height: 13%;
+                    float: right;
+                    padding: 0 20px;
+                    line-height: 150px;
+                }
+                
+                .bn_left {
+                    float: left;
+                    width: 30%;
+                    height: 100%;
+                }
+                
+                .bn_right {
+                    width: 60%;
+                    float: right;
+                    height: 100%;
+                }
+                
+                .bn_left img {
+                    width: 100%;
+                    margin-top: 40px;
+                }
+                
+                .top,
+                .top2 {
+                    width: 100%;
+                }
+                
+                .top {
+                    height: 30%;
+                    position: relative;
+                }
+                
+                .top2 {
+                    height: 65%;
+                    background-image: url(../img/khungdienthoaicomau.png);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    position: relative;
+                }
+                
+                .top img {
+                    float: left;
+                    margin-left: 120px;
+                }
+                
+                .top p {
+                    float: left;
+                    line-height: 1;
+                    font-size: 70px;
+                }
+                
+                .chutrang {
+                    color: white;
+                }
+                
+                .hotsale {
+                    position: absolute;
+                    left: 160px;
+                    top: 8px;
+                    font-size: 60px;
+                    line-height: 1;
+                }
+                
+                .bf {
+                    float: left;
+                    font-size: 35px;
+                    position: relative;
+                    margin: 20px 183px 0;
+                }
+                
+                .bf::before {
+                    content: "";
+                    position: absolute;
+                    width: 100px;
+                    height: 5px;
+                    background-color: black;
+                    top: 18px;
+                    left: -110px;
+                }
+                
+                .bf::after {
+                    content: "";
+                    position: absolute;
+                    width: 100px;
+                    height: 5px;
+                    background-color: black;
+                    top: 18px;
+                    right: -110px;
+                }
+                
+                .top2_o {
+                    width: 370px;
+                    height: 60px;
+                    background-color: #9624cb;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                
+                .chuvang {
+                    color: #bfc323;
+                }
+                
+                .top2_o {
+                    font-size: 32px;
+                    line-height: 60px;
+                }
+                
+                .top2_big {
+                    width: 69%;
+                    height: 150px;
+                    margin: 50px auto 0;
+                }
+                
+                .top2_big2 {
+                    width: 10%;
+                    height: 73%;
+                    float: left;
+                    font-size: 40px;
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 146px;
+                    color: #9624cb;
+                }
+                
+                .top2_big1 {
+                    float: left;
+                }
+                
+                .fontita {
+                    font-style: italic;
+                }
+                
+                .colorxanh {
+                    color: #0066cc;
+                }
+                
+                .giaban {
+                    width: 100%;
+                    height: 65px;
+                    text-align: center;
+                }
+                
+                .chuden {
+                    color: black;
+                }
+                
+                .giaban p {
+                    font-size: 25px;
+                }
+                
+                .chuxam {
+                    color: #b0b0af;
+                }
+                
+                .size17 {
+                    font-size: 20px;
+                }
+                
+                .textleft {
+                    text-align: left;
+                }
+                
+                .right {
+                    float: right;
+                }
+                
+                .row1_1 {
+                    padding: 0 465px;
+                    width: calc(100% - (465px * 2));
+                }
+                
+                .left {
+                    float: left;
+                }
+                
+                .right {
+                    float: right;
+                }
+                
+                .row1_1_1 {
+                    width: 50%;
+                    height: 100%;
+                }
+                
+                .row1_1_2 {
+                    width: 45%;
+                    height: 100%;
+                }
+                
+                .row1_1_1 img {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .row1_1_2 p {
+                    font-size: 25px;
+                    margin-top: 25%;
+                    margin-bottom: 10px;
+                }
+                
+                .row1_1_2 h2 {
+                    font-size: 40px;
+                }
+                
+                .mua {
+                    width: 60px;
+                    height: 35px;
+                    background-color: #0071e3;
+                    color: white;
+                    border: none;
+                    border-radius: 20px;
+                    margin: 15px 0;
+                    outline: none;
+                }
+                
+                .tht {
+                    font-size: 20px;
+                    color: #06c;
+                    text-decoration: none;
+                }
+                
+                .chunghien {
+                    font-style: italic;
+                    text-decoration: none;
+                }
+                
+                .chunghien:hover {
+                    font-style: normal;
+                    text-decoration: underline;
+                }
+                
+                .tdchinh {
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                }
+                
+                .tdchinh h2 {
+                    font-size: 40px;
+                }
+                
+                .chuxanh {
+                    color: #06c;
+                }
+                
+                .tdchinh p {
+                    font-size: 25px;
+                    font-weight: lighter;
+                    margin-top: 10px;
+                }
+                
+                .sp {
+                    width: 100%;
+                    height: 640px;
+                    margin-top: 50px;
+                }
+                
+                .sp1 {
+                    width: 22%;
+                    height: 640px;
+                    float: left;
+                    margin-left: 59px;
+                }
+                
+                .sp1:first-child {
+                    margin-left: 0;
+                }
+                
+                .sp1img {
+                    width: 100%;
+                    height: 256px;
+                    margin: 0 auto;
+                    float: left;
+                    position: relative;
+                }
+                
+                .sp1img img {
+                    position: absolute;
+                    bottom: 0;
+                    left: 25%;
+                }
+                
+                .ndsp {
+                    width: 100%;
+                    height: auto;
+                    float: left;
+                    margin-top: 20px;
+                    text-align: center;
+                }
+                
+                .ndsp p {
+                    margin: 20px;
+                }
+                
+                .airpod {
+                    display: block;
+                    width: 1074px;
+                    height: 430px;
+                    background-color: white;
+                    margin: 150px auto 0;
+                }
+                
+                .rowairpod {
+                    height: 650px;
+                    width: 100%;
+                    background-color: #f2f2f2;
+                    float: left;
+                }
+                
+                .rowairpod .tdchinh,
+                .row3 .tdchinh {
+                    height: 100px;
+                    margin-top: 50px;
+                    float: left;
+                }
+                
+                .ap1 {
+                    width: 30%;
+                    height: 100%;
+                    text-align: center;
+                }
+                
+                .ap2 {
+                    width: 70%;
+                    height: 100%;
+                }
+                
+                .ap2 img {
+                    float: right;
+                }
+                
+                .ap1 h1 {
+                    margin-top: 150px;
+                }
+                
+                .ap1 p {
+                    font-size: 20px;
+                }
+                
+                .watch {
+                    width: 100%;
+                    height: 700px;
+                    float: left;
+                }
+                
+                .watbig {
+                    width: 1190px;
+                    height: 550px;
+                    margin: 70px auto 0;
+                }
+                
+                .wat1 {
+                    width: 30%;
+                    height: 100%;
+                    text-align: center;
+                }
+                
+                .wat2 {
+                    width: 70%;
+                    height: 100%;
+                }
+                
+                .wat1 h2 {
+                    margin-top: 150px;
+                    margin-bottom: 10px;
+                }
+                
+                .row3dai {
+                    width: 1380px;
+                    height: 450px;
+                    background-color: brown;
+                    margin: 30px auto;
+                    position: relative;
+                }
+                
+                .row3dai img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+                
+                .row3 .row3dai:nth-child(0) {
+                    margin-top: 50px;
+                }
+                
+                .martop150 {
+                    margin-top: 150px;
+                }
+                
+                .row3dai2 {
+                    width: 1380px;
+                    height: 500px;
+                    margin: 0 auto;
+                }
+                
+                .textcenter {
+                    text-align: center;
+                }
+                
+                .textrow3 {
+                    width: 100%;
+                    height: auto;
+                    position: absolute;
+                    top: 170px;
+                    z-index: 2;
+                }
+                
+                .textrow3 p {
+                    font-size: 25px;
+                }
+                
+                .textrow3 h1 {
+                    font-size: 40px;
+                    margin: 10px 0;
+                }
+                
+                .chutrang {
+                    color: white;
+                }
+                
+                .row3dai2_1 {
+                    width: calc(50% - 15px);
+                    height: 100%;
+                    background-color: #bfc323;
+                    position: relative;
+                }
+                
+                .bgden {
+                    background-color: black;
+                }
+                
+                .textrow3_1 {
+                    width: 100%;
+                    height: auto;
+                    position: absolute;
+                    top: 20px;
+                    z-index: 2;
+                }
+                
+                .textrow3_1 h1 {
+                    font-size: 40px;
+                }
+                
+                .textrow3_1 p {
+                    font-size: 20px;
+                    font-weight: lighter;
+                    margin: 10px 0;
+                }
+                
+                .row3dai2img {
+                    position: absolute;
+                    width: 100%;
+                    height: 340px;
+                    bottom: 0;
+                }
+                
+                .row3dai2img img {
+                    height: 100%;
+                    margin-left: 34%;
+                }
+                
+                .top165 {
+                    top: 165px;
+                    height: auto;
+                }
+                
+                .row3img2 {
+                    display: block;
+                    width: 65%;
+                    height: 376px;
+                    margin: 0 auto;
+                }
+                
+                .row3text2 {
+                    margin-top: 20px;
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    float: left;
+                }
+                
+                .pore {
+                    position: relative;
+                }
+                
+                .poab {
+                    position: absolute;
+                }
+                
+                .idx1 {
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .watchbtn {
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 100px;
+                    border: none;
+                    background-color: white;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-top: 20px;
+                    outline: none;
+                    margin-right: 10px;
+                }
+                
+                .ft1 {
+                    width: 1200px;
+                    height: 100%;
+                    margin: 0 auto;
+                    border-top: 2px solid #d2d2d7;
+                }
+                
+                .ft1_1 {
+                    width: 225px;
+                    height: 90%;
+                    margin-left: 100px;
+                    float: left;
+                }
+                
+                .ft1_1:first-child {
+                    margin-left: 0;
+                }
+                
+                .chudam {
+                    font-weight: bold;
+                }
+                
+                .ft1_1 ul li {
+                    display: block;
+                    margin-top: 15px;
+                }
+                
+                .ft1_1 ul li p {
+                    font-size: 18px;
+                }
+                
+                .ft1_1 ul li a {
+                    text-decoration: none;
+                    font-family: fontnd;
+                    color: #515154;
+                    font-weight: lighter;
+                }
+                
+                .ft2 {
+                    width: 100%;
+                    height: 25px;
+                    border-bottom: 2px solid #d2d2d7;
+                    float: left;
+                    text-align: center;
+                }
+                
+                .chuxam {
+                    color: #515154;
+                }
+                
+                .menurepon {
+                    width: 100%;
+                    height: 50px;
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    background-color: black;
+                }
+                
+                .disblock {
+                    display: block;
+                }
+                
+                .ftrepon {
+                    width: 100%;
+                    min-height: 330px;
+                    display: none;
+                }
+                
+                .ftrepon ul li {
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                
+                .ulcon {
+                    display: none;
+                }
+                
+                .ftrepon ul li:hover .ulcon {
+                    display: block;
+                }
+                
+                .ulcon li a {
+                    color: #515154;
+                    text-decoration: none;
+                }
+                
+                .ulcon1 {
+                    width: 100%;
+                    height: auto;
+                    background-color: black;
+                }
+                
+                .ulcon1 li {
+                    padding: 10px 0;
+                    text-align: center;
+                }
+                
+                .ulcon1 li a {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                #menu {
+                    transition: all 1s;
+                }
+                
+                .banner img {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                #map {
+                    width: 100%;
+                    height: 500px;
+                }
+                
+                #tim {
+                    color: white;
+                }
+                
+                #iptim input {
+                    width: 180px;
+                    height: 20px;
+                    border-radius: 50px;
+                    outline: none;
+                    border: none;
+                    padding: 0 10px;
+                }
+                
+                @media only screen and (max-width: 768px) {
+                    .body {
+                        width: 100%;
+                    }
+                    .menurepon {
+                        display: block;
+                    }
+                    header nav {
+                        display: none;
+                    }
+                    .menurepon i {
+                        font-size: 40px;
+                        margin: 5px 0 0 5px;
+                        color: white;
+                    }
+                    .menurepon img {
+                        float: right;
+                        margin: 10px 25px 0 0;
+                    }
+                    .boxnav p {
+                        display: none;
+                    }
+                    .nav2 ul {
+                        width: 100%;
+                    }
+                    .boxnav {
+                        width: 87px;
+                    }
+                    .nav2 {
+                        height: 80px;
+                    }
+                    .logo,
+                    .bn_big,
+                    .bn_cuoi {
+                        display: none;
+                    }
+                    .banner {
+                        background-image: url(../img/banner.PNG);
+                        background-size: 100% auto;
+                        background-repeat: no-repeat;
+                        height: 284px;
+                    }
+                    .row1_1 {
+                        padding: 0;
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+                    .row1 {
+                        height: 255px;
+                        float: none;
+                    }
+                    .row1_1_2 p {
+                        font-size: 20px;
+                    }
+                    .row1_1_2 h2 {
+                        font-size: 22px;
+                    }
+                    .mua {
+                        width: 38px;
+                        height: 25px;
+                        font-size: 10px;
+                    }
+                    .tht {
+                        font-size: 15px;
+                    }
+                    .row2 {
+                        width: 100%;
+                        padding: 0;
+                    }
+                    .tdchinh h2 {
+                        font-size: 25px;
+                    }
+                    .sp1 {
+                        margin-left: 0;
+                    }
+                    .tdchinh p {
+                        font-size: 20px;
+                    }
+                    .ndsp h2 {
+                        font-size: 20px;
+                    }
+                    .ndsp p {
+                        font-size: 10px;
+                    }
+                    .sp1 {
+                        width: 50%;
+                        height: 530px;
+                    }
+                    .row2 {
+                        height: 1220px;
+                    }
+                    .sp1img img {
+                        left: 33%;
+                    }
+                    .airpod {
+                        width: 100%;
+                        height: 600px;
+                    }
+                    .ap1 {
+                        width: 100%;
+                        height: 145px;
+                    }
+                    .ap1 h1 {
+                        margin-top: 20px;
+                    }
+                    .ap2 {
+                        width: 100%;
+                        height: 455px;
+                    }
+                    .rowairpod {
+                        height: 800px;
+                    }
+                    .watbig {
+                        width: 100%;
+                        margin-top: 0;
+                    }
+                    .wat1 {
+                        width: 100%;
+                        height: 265px;
+                    }
+                    .wat1 h2 {
+                        margin-top: 20px;
+                    }
+                    .wat2 {
+                        width: 100%;
+                        height: 435px;
+                    }
+                    .wat2 img {
+                        width: 72%;
+                        margin-right: 100px;
+                    }
+                    .row3dai {
+                        width: 100%;
+                        float: left;
+                    }
+                    .row3dai2_1 {
+                        width: 100%;
+                        float: left;
+                        margin-top: 20px;
+                    }
+                    .row3dai2 {
+                        width: 100%;
+                    }
+                    .row3img2 {
+                        width: 56%;
+                    }
+                    .ft1 {
+                        width: 100%;
+                    }
+                    footer {
+                        float: left;
+                    }
+                    .disblock {
+                        display: none;
+                    }
+                    .martop150 {
+                        margin: 0;
+                    }
+                    .row3 {
+                        height: 3200px;
+                    }
+                    .ftrepon {
+                        display: block;
+                    }
+                }
+                
+                @media only screen and (max-width: 470px) {
+                    .body {
+                        width: 100%;
+                    }
+                    .menurepon {
+                        display: block;
+                    }
+                    header nav {
+                        display: none;
+                    }
+                    .menurepon i {
+                        font-size: 40px;
+                        margin: 5px 0 0 5px;
+                        color: white;
+                    }
+                    .menurepon img {
+                        float: right;
+                        margin: 10px 25px 0 0;
+                    }
+                    .boxnav p {
+                        display: none;
+                    }
+                    .nav2 ul {
+                        width: 100%;
+                    }
+                    .boxnav {
+                        width: 35px;
+                    }
+                    .nav2 {
+                        height: 80px;
+                    }
+                    .logo,
+                    .bn_big,
+                    .bn_cuoi {
+                        display: none;
+                    }
+                    .banner {
+                        background-image: url(../img/banner.PNG);
+                        background-size: 100% auto;
+                        background-repeat: no-repeat;
+                        height: 175px;
+                    }
+                    .row1_1 {
+                        padding: 0;
+                        width: 100%;
+                    }
+                    .row1 {
+                        height: 255px;
+                    }
+                    .row1_1_2 p {
+                        font-size: 20px;
+                    }
+                    .row1_1_2 h2 {
+                        font-size: 22px;
+                    }
+                    .mua {
+                        width: 38px;
+                        height: 25px;
+                        font-size: 10px;
+                    }
+                    .tht {
+                        font-size: 15px;
+                    }
+                    .row2 {
+                        width: 100%;
+                        padding: 0;
+                    }
+                    .tdchinh h2 {
+                        font-size: 25px;
+                    }
+                    .sp1 {
+                        margin-left: 0;
+                    }
+                    .tdchinh p {
+                        font-size: 20px;
+                    }
+                    .ndsp h2 {
+                        font-size: 20px;
+                    }
+                    .ndsp p {
+                        font-size: 10px;
+                    }
+                    .sp1 {
+                        width: 100%;
+                        height: 530px;
+                    }
+                    .row2 {
+                        height: 2255px;
+                    }
+                    .sp1img img {
+                        left: 33%;
+                    }
+                    .airpod {
+                        width: 100%;
+                        height: 600px;
+                    }
+                    .ap1 {
+                        width: 100%;
+                        height: 145px;
+                    }
+                    .ap1 h1 {
+                        margin-top: 20px;
+                    }
+                    .ap2 {
+                        width: 100%;
+                        height: 455px;
+                    }
+                    .rowairpod {
+                        height: 800px;
+                    }
+                    .watbig {
+                        width: 100%;
+                        margin-top: 0;
+                    }
+                    .wat1 {
+                        width: 100%;
+                        height: 265px;
+                    }
+                    .wat1 h2 {
+                        margin-top: 20px;
+                    }
+                    .wat2 {
+                        width: 100%;
+                        height: 400px;
+                    }
+                    .wat2 img {
+                        width: 100%;
+                        margin: 0;
+                    }
+                    .row3dai {
+                        width: 100%;
+                        float: left;
+                    }
+                    .row3dai2_1 {
+                        width: 100%;
+                        float: left;
+                        margin-top: 20px;
+                    }
+                    .row3dai2 {
+                        width: 100%;
+                    }
+                    .row3img2 {
+                        width: 100%;
+                    }
+                    .ft1 {
+                        width: 100%;
+                    }
+                    footer {
+                        float: left;
+                    }
+                    .disblock {
+                        display: none;
+                    }
+                    .martop150 {
+                        margin: 0;
+                    }
+                    .row3 {
+                        height: 3200px;
+                    }
+                    .ftrepon {
+                        display: block;
+                    }
+                }
