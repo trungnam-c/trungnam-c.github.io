@@ -168,12 +168,4 @@ $(document).ready(function() {
         }
         $("#ytb").attr("src", linkytb[demytb]);
     });
-
-    // tao cung dang code dong nay
-    // dong nay nua
-    // dong nay nua
-    // nnnnnn
-
-
-    //     test xung dotasdasdadasd
 });
